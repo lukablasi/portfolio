@@ -1,0 +1,70 @@
+* {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+body {
+  background: url(../img/aboutme.jpg);
+  background-size: cover; }
+
+header {
+  color: darkred;
+  width: 100vw;
+  text-align: center;
+  line-height: 0.5;
+  font-size: 2em;
+  border-bottom: 2px darkred solid; }
+
+main {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+
+img {
+  height: auto;
+  width: 300px; }
+
+.lmain {
+  text-align: center; }
+  .lmain h2 {
+    margin-top: 10px;
+    padding: 5px; }
+  .lmain p {
+    line-height: 1.6;
+    padding: 5px;
+    font-size: 1.1em; }
+
+.rmain {
+  padding: 5px; }
+  .rmain h2 {
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px; }
+  .rmain p {
+    padding: 5px; }
+
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: silver;
+  opacity: 0.7; }
+  footer a {
+    color: black;
+    text-decoration: none; }
+
+@media screen and (max-width: 860px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    width: 300px; } }
+
+/*# sourceMappingURL=aboutme.css.map */

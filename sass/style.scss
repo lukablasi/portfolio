@@ -72,6 +72,13 @@ main {
         background-image: url(../img/cv.png);
         background-size: cover;
     }
+    &_aboutme {
+        background-image: url(../img/aboutme.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: lightgrey;
+    }
     &--disabled {
         background-color: grey;
         cursor: not-allowed;
