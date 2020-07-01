@@ -79,6 +79,13 @@ main {
         background-position: center;
         background-color: lightgrey;
     }
+    &_contactme {
+        background-image: url(../img/contactme.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: lightgrey;
+    }
     &--disabled {
         background-color: grey;
         cursor: not-allowed;
